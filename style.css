@@ -2,3 +2,10 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.memo {
+  width: 250px;
+  height: 250px;
+  background-color: #ffff85;
+  box-shadow: gray 2px 2px 2px;
+}
