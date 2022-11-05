@@ -5,7 +5,20 @@ html, body {
 
 .memo {
   width: 250px;
-  height: 250px;
+  height: auto;
   background-color: #ffff85;
   box-shadow: gray 2px 2px 2px;
+  padding: 1rem;
+  resize: both;
+}
+
+.CodeMirror, .CodeMirror-scroll {
+	min-height: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: none 0px;
+}
+
+.CodeMirror-focused {
+  border: 1px solid #ddd
 }
